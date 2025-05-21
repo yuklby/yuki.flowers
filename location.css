@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+header {
+  background-color: #cedfb2;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+}
+.blockpink {
+  background-color: #f7c9d4;
+  height: 120px;
+}
+.logo {
+  height: 60px;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  margin-left: 30px;
+} 
+.left,
+.right {
+  display: flex;
+  gap: 20px;
+} 
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
+.location {
+  font-weight: 300;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 30px;
+  margin: 0;
+}  .location-section {
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.location-text {
+  max-width: 500px;
+}
+
+.location-text h2 {
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+
+.location-text p {
+  font-size: 15px;
+  line-height: 1.6;
+  max-width: 500px;
+  text-align: justify;
+}
+
+.location-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 25px;
+  background-color: #f7c9d4;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+.location-map img {
+  width: 400px;
+  border-radius: 8px;
+}
+.schedule {
+  background-color: #cedfb2;
+  padding: 40px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.schedule h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.schedule p {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+  .footer {
+    background-color: #f7c9d4;
+    margin-top: auto;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  .footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  } 
+  .footer-column a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+  }
+  .footer-logo {
+    text-align: center;
+  }
+  .footer-logo img {
+    height: 60px;
+  }
+  .divider {
+    height: 150px;
+    width: 1px;
+    background-color: black;
+    margin: 10px auto 0;
+  }
